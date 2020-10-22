@@ -1,6 +1,6 @@
 import socket
 s=socket.socket()
-s.bind(('192.168.56.1',port))
+s.bind(('your ip',port))
 print("server up")
 s.listen(3)
 import tkinter as tk
